@@ -1,0 +1,51 @@
+{
+    "mariocart": [
+        {
+            "id": 1,
+            "name": "Mario",
+            "url": "https://mario.nintendo.com/static/5173cb58b062e1ec02553be8ed1b8019/b2548/header-mario.png" 
+         
+        },
+        {
+            "id": 2,
+            "name": "Diasy",
+            "url": "https://e7.pngegg.com/pngimages/89/435/png-clipart-princess-daisy-super-mario-land-mario-bros-princess-daisy-princess-peach-princess-mario-s-orange-nintendo.png"
+        
+        },
+        { 
+            "id": 3,
+            "name": "Toad",
+            "url": "https://toppng.com//public/uploads/preview/image-toad-mario-115635854490thgx41jbo.png"
+           
+        },
+        {
+            "id": 4,
+            "name": "Goomba",
+            "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG"
+          
+        },
+        {
+            "id": 5,
+            "name": "Yoshi",
+            "url": "https://e7.pngegg.com/pngimages/313/617/png-clipart-mario-yoshi-super-mario-world-2-yoshi-s-island-yoshi-nintendo-vertebrate.png"
+        
+        },
+        {
+            "id": 6,
+            "name": "Peach",
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT9Z-vIj4JXD-C2m8SJpkvf2LqDgmYAUcizg&usqp=CAU"
+        },
+        {
+            "id": 7,
+            "name": "Bowser",
+            "url": "https://w7.pngwing.com/pngs/80/18/png-transparent-nintendo-bowser-illustration-super-mario-bros-bowser-mario-sonic-at-the-olympic-winter-games-bowser-heroes-super-mario-bros-carnivoran-thumbnail.png"
+           
+        },
+        {
+            "id": 8,
+            "name": "Luigi",
+            "url": "https://www.pngmart.com/files/22/Mario-And-Luigi-PNG.png"
+           
+        }
+    ]
+}

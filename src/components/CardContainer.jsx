@@ -1,6 +1,12 @@
-const CardContainer = () => {
+import Card from './Card'
+
+const CardContainer = ( {cards, setCards}) => {
     return (
-        <div className="container"></div>
+        <div className="container">
+            {cards.map((card) => (
+                <Card key={card.id} card={card} /> 
+            ))}
+        </div>
     )
 }
 

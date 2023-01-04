@@ -1,6 +1,9 @@
-const Cards = () => {
+const Cards = ({card}) => {
+    const {url, name} = card
     return (
-        <div></div>
+        <div className="card">
+            <img src={url} alt={name} />
+        </div>
     )
 }
 
