@@ -8,7 +8,7 @@ function App() {
   const [cards, setCards] = useState([]);
 
   const fetchCards = async () => {
-    const req = await fetch("http://localhost:3001/mariocart");
+    const req = await fetch("http://localhost:3000/mariocart");
     const resp = await req.json();
     setCards(resp);
   }
