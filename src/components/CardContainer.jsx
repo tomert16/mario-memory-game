@@ -1,17 +1,17 @@
 import Card from './Card'
 import React, { useState } from 'react'
 
-const CardContainer = ( {cards, setCards, url, url2}) => {
+const CardContainer = ( {cards, url2}) => {
     const [selected, setSelected] = useState(url2);
     function handleClick() {
         setSelected(!selected);
     }
+    const shuffledCards = cards.sort(( ) => Math.random() - 0.5)
+    
     return (
         <div className="container">
-            <div className={`card ${selected ? "selected" : ""}`} onClick={handleClick}>
-                <img src={url} />
-            </div>
-            {cards.map((card) => (
+            
+            {shuffledCards.map((card) => (
                 <Card key={card.id} card={card} /> 
             ))}
         </div>

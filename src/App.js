@@ -6,17 +6,21 @@ import MatchedCards from './components/MatchedCards';
 
 
 function App() {
+  const [timeout] = useState([])
   const [cards, setCards] = useState([]);
-
+  console.log(cards)
+  
 
   const fetchCards = async () => {
     const req = await fetch("http://localhost:3000/mariocart");
     const resp = await req.json();
     setCards(resp);
+    // console.log(resp)
   }
   useEffect(() => {
-    fetchCards();
-  },[])
+    fetchCards()
+  },[]);
+  
   return (
     <div className="App">
         <Header />
@@ -27,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+//fetchCards();
