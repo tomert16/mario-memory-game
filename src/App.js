@@ -4,8 +4,10 @@ import Header from './components/Header';
 import CardContainer from './components/CardContainer';
 import MatchedCards from './components/MatchedCards';
 
+
 function App() {
   const [cards, setCards] = useState([]);
+
 
   const fetchCards = async () => {
     const req = await fetch("http://localhost:3000/mariocart");
