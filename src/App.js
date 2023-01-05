@@ -3,9 +3,11 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import CardContainer from './components/CardContainer';
 import MatchedCards from './components/MatchedCards';
+import Leaderboard from './components/Leaderboard';
 
 function App() {
   const [cards, setCards] = useState([]);
+  const [players, setPlayers] = useState([]);
 
   const fetchCards = async () => {
     const req = await fetch("http://localhost:3001/mariocart");
@@ -15,10 +17,19 @@ function App() {
   useEffect(() => {
     fetchCards();
   },[])
+//   const fetchPlayers = async () => {
+//     const req = await fetch("http://localhost:3001/leaders")
+//     const resp = await req.json();
+//     setPlayers(resp);
+// }
+// useEffect(() => {
+//     fetchPlayers();
+// },[])
   return (
     <div className="App">
         <Header />
         <CardContainer cards={cards} setCards={setCards}/>
+        {/*<Leaderboard players={players} setPlayers={setPlayers}/>*/}
         <MatchedCards />
     </div>
   );
