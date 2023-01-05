@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
 
-const Cards = ({card,handleClick}) => {
-    const {url, name} = card
-    const [Flipped, setFlipped] = useState(false);
+const Cards = ({card}) => {
+    const {url2, url, name} = card
+    const [Flipped, setFlipped] = useState({url});
+    const [Back, setBack] = useState({url2});
     function handleClick() {
         setFlipped(!Flipped);
     }
     return (
         <div className={`card ${Flipped ? "flipped" : ""}`} onClick={handleClick}>
-            <img src={url} alt={name} />
+            <img src={url}/>
+            <img src={url2} alt={name} />
         </div>
-        
     )
 }
 
