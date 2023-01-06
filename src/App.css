@@ -17,19 +17,17 @@ body{
   background-color: black;
 }
 
-.title {
-  font-family:fantasy;
-}
 .container {
   background-color: white;
-  height: 100px;
-  width: 100px;
+  margin-top: 15rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   align-items: stretch;
   gap: 1em;
   border-color: red;
+
+
 }
 .card {
   display: flex;
@@ -48,10 +46,36 @@ div.card {
 img.card{ 
   background-color: transparent;
 }
+.header{
+  height:100px;
+  text-decoration: underline;
+  text-align: center;
+  border-style: solid;
+  background-color: red;
+  font-family: 'Lucida Sans';
+}
+.header > h1{
+  font-size: 70px;
+}
 .header > h2{
   position: relative;
-  top: -80%;
+  top: -280%;
+  right: 30%;
   height: fit-content;
+  font-size: 40px;
+}
+.header > h3{
+  position: relative;
+  top: -330%;
+  left: 30%;
+  height: fit-content;
+  font-size: 40px;
+}
+.header > h2:hover{
+  color: blue;
+}
+.header > h3:hover{
+  color: blue;
 }
 
 .board {
@@ -75,9 +99,12 @@ img.card{
 
 
 .leaderboard{
+  position:relative;
+  right:20rem;
     font-size: 20px;
     color: rgb(13, 12, 12);
     font-family: 'Roboto Condensed', sans-serif;
+    width: 200%;
 }
 .leadTitle{
   height:100px;
@@ -157,4 +184,30 @@ input {
   left: 155%;
   width: 100px;
   height: 30px;
+}
+.score{
+ position: relative;
+ top: 330%;
+ left: 30%;
+ font-size: 8pc;
+ color: red;
+}
+.timer{
+  position: relative;
+  bottom: 370%;
+  right:25%;
+  font-size: 50px;
+  border-style: solid;
+  border-color:black;
+  border-radius: 6px;
+  height: 70px;
+  background-color: rgb(255, 251, 0);
+}
+.new-card{
+  height:100px;
+  text-decoration: underline;
+  text-align: center;
+  border-style: solid;
+  background-color: red;
+  font-family: 'Lucida Sans';
 }

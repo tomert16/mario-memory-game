@@ -1,125 +1,214 @@
 {
-    "mariocart": [
-        {
-            "id": 1,
-            "name": "Mario",
-            "status": "",
-            "url": "https://freepngimg.com/download/mario/20718-3-mario-clipart.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-            
-         
-        },
-        {
-            "id": 1,
-            "name": "Mario",
-            "status": "",
-            "url": "https://freepngimg.com/download/mario/20718-3-mario-clipart.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-
-        },
-        {
-            "id": 2,
-            "name": "Diasy",
-            "status": "",
-            "url": "https://www.pngmart.com/files/13/Princess-Daisy-PNG-Transparent-Picture.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        
-        },
-        {
-            "id": 2,
-            "name": "Diasy",
-            "status": "",
-            "url": "https://www.pngmart.com/files/13/Princess-Daisy-PNG-Transparent-Picture.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        { 
-            "id": 3,
-            "name": "Toad",
-            "status": "",
-            "url": "https://www.pngmart.com/files/13/Super-Mario-Bros-Toad-PNG-Transparent.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        {
-            "id": 3,
-            "name": "Toad",
-            "status": "",
-            "url": "https://www.pngmart.com/files/13/Super-Mario-Bros-Toad-PNG-Transparent.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        {
-            "id": 4,
-            "name": "Goomba",
-            "status": "",
-            "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-          
-        },
-        {
-            "id": 4,
-            "name": "Goomba",
-            "status": "",
-            "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        {
-            "id": 5,
-            "name": "Yoshi",
-            "status": "",
-            "url": "https://www.pngmart.com/files/2/Yoshi-PNG-Clipart.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        
-        },
-        {
-            "id": 5,
-            "name": "Yoshi",
-            "status": "",
-            "url": "https://www.pngmart.com/files/2/Yoshi-PNG-Clipart.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        {
-            "id": 6,
-            "name": "Peach",
-            "status": "",
-            "url": "https://www.pngmart.com/files/2/Princess-Peach-PNG-Clipart.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        {
-            "id": 6,
-            "name": "Peach",
-            "status": "",
-            "url": "https://www.pngmart.com/files/2/Princess-Peach-PNG-Clipart.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        {
-            "id": 7,
-            "name": "Bowser",
-            "status": "",
-            "url": "https://www.pngmart.com/files/5/Bowser-Transparent-Background.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-           
-        },
-        {
-            "id": 7,
-            "name": "Bowser",
-            "url": "https://www.pngmart.com/files/5/Bowser-Transparent-Background.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        },
-        {
-            "id": 8,
-            "name": "Luigi",
-            "status": "",
-            "url": "https://www.pngmart.com/files/22/Mario-And-Luigi-PNG.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-           
-        },
-        {
-            "id": 8,
-            "name": "Luigi",
-            "status": "",
-            "url": "https://www.pngmart.com/files/22/Mario-And-Luigi-PNG.png",
-            "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
-        }
-    ],
+  "mariocart": [
+    {
+      "id": 1,
+      "name": "Mario",
+      "status": "",
+      "url": "https://freepngimg.com/download/mario/20718-3-mario-clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 1,
+      "name": "Mario",
+      "status": "",
+      "url": "https://freepngimg.com/download/mario/20718-3-mario-clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 2,
+      "name": "Diasy",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Princess-Daisy-PNG-Transparent-Picture.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 2,
+      "name": "Diasy",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Princess-Daisy-PNG-Transparent-Picture.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 3,
+      "name": "Toad",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Super-Mario-Bros-Toad-PNG-Transparent.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 3,
+      "name": "Toad",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Super-Mario-Bros-Toad-PNG-Transparent.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 4,
+      "name": "Goomba",
+      "status": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 4,
+      "name": "Goomba",
+      "status": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 5,
+      "name": "Yoshi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Yoshi-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 5,
+      "name": "Yoshi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Yoshi-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 6,
+      "name": "Peach",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Princess-Peach-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 6,
+      "name": "Peach",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Princess-Peach-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 7,
+      "name": "Bowser",
+      "status": "",
+      "url": "https://www.pngmart.com/files/5/Bowser-Transparent-Background.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 7,
+      "name": "Bowser",
+      "url": "https://www.pngmart.com/files/5/Bowser-Transparent-Background.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 8,
+      "name": "Luigi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/22/Mario-And-Luigi-PNG.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 8,
+      "name": "Luigi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/22/Mario-And-Luigi-PNG.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 2,
+      "name": "Diasy",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Princess-Daisy-PNG-Transparent-Picture.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 2,
+      "name": "Diasy",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Princess-Daisy-PNG-Transparent-Picture.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 3,
+      "name": "Toad",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Super-Mario-Bros-Toad-PNG-Transparent.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 3,
+      "name": "Toad",
+      "status": "",
+      "url": "https://www.pngmart.com/files/13/Super-Mario-Bros-Toad-PNG-Transparent.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 4,
+      "name": "Goomba",
+      "status": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 4,
+      "name": "Goomba",
+      "status": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Goomba.PNG",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 5,
+      "name": "Yoshi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Yoshi-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 5,
+      "name": "Yoshi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Yoshi-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 6,
+      "name": "Peach",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Princess-Peach-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 6,
+      "name": "Peach",
+      "status": "",
+      "url": "https://www.pngmart.com/files/2/Princess-Peach-PNG-Clipart.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 7,
+      "name": "Bowser",
+      "status": "",
+      "url": "https://www.pngmart.com/files/5/Bowser-Transparent-Background.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 7,
+      "name": "Bowser",
+      "url": "https://www.pngmart.com/files/5/Bowser-Transparent-Background.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 8,
+      "name": "Luigi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/22/Mario-And-Luigi-PNG.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    },
+    {
+      "id": 8,
+      "name": "Luigi",
+      "status": "",
+      "url": "https://www.pngmart.com/files/22/Mario-And-Luigi-PNG.png",
+      "url2": "https://cdn-icons-png.flaticon.com/512/871/871484.png"
+    }
+  ],
   "leaders": [
     {
       "id": 1,
@@ -138,6 +227,24 @@
       "score": "4",
       "date": "today",
       "id": 3
+    },
+    {
+      "playerName": "sophia",
+      "score": "300",
+      "date": "1/6/23",
+      "id": 4
+    },
+    {
+      "playerName": "jason",
+      "score": "1",
+      "date": "today",
+      "id": 5
+    },
+    {
+      "playerName": "Sebastian",
+      "score": "2",
+      "date": "Tomorrow",
+      "id": 6
     }
   ]
 }
