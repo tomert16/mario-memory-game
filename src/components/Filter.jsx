@@ -1,7 +1,7 @@
 const Filter = ({setPlayerFilter, playerFilter}) => {
     return (
         <div className="searchBar">
-      <label htmlFor="search">Search Player:</label>
+      <label htmlFor="search" >Player Search:</label>
       <input
         type="text"
         id="search"

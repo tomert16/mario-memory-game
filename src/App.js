@@ -25,10 +25,11 @@ function App() {
 // useEffect(() => {
 //     fetchPlayers();
 // },[])
+const shuffledCards = cards.sort(() => Math.random() - 0.5)
   return (
     <div className="App">
         <Header />
-        <CardContainer cards={cards} setCards={setCards}/>
+        <CardContainer cards={cards} setCards={setCards} shuffledCards={shuffledCards}/>
         {/*<Leaderboard players={players} setPlayers={setPlayers}/>*/}
         <MatchedCards />
     </div>

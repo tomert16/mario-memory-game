@@ -13,14 +13,17 @@ body{
   justify-content: center;
   align-items: center;
 }
+.url{
+  background-color: black;
+}
 
 .title {
   font-family:fantasy;
 }
-.container{
+.container {
   background-color: white;
-  height: 1000px;
-  width: 1000px;
+  height: 100px;
+  width: 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -28,27 +31,42 @@ body{
   gap: 1em;
   border-color: red;
 }
-.card{
+.card {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   border-radius: 5px;
-  
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+div.container {
+  background-color: transparent;
+}
+div.card {
+  background-color: transparent;
+}
+img.card{ 
+  background-color: transparent;
+}
+.header > h2{
+  position: relative;
+  top: -80%;
+  height: fit-content;
 }
 
 .board {
   position: relative;
-  bottom:162%;
+  bottom:12%;
   margin-right: 0.1rem;
   padding-top: 15px;
   display: grid;
   font-size: 14px;
   grid-template-columns: 0.4fr 3fr 1fr 1fr 1fr;
   text-align: center;
-  background-color: #97d60675;
+  /*background-color: #97d60675;*/
   border-radius: 20px;
-  
 }
+
 .board > div {
   text-decoration:underline;
   font-size: 20px;
@@ -62,18 +80,25 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 .leadTitle{
+  height:100px;
+  text-decoration: underline;
+  text-align: center;
   border-style: solid;
-  background-color: brown;
+  background-color: red;
+  font-family: 'Lucida Sans';
 }
-.leaderboard > h2 {
-   position: relative;
-   bottom: 100%;
-   left: 60%
+.leadTitle > h2 {
+  position: relative;
+  top: -240%;
+  height: fit-content;
+}
+.leadTitle > h2:hover {
+  color: blue;
 }
 
 .searchBar {
     position: relative;
-    bottom: 80%;
+    top: 65%;
     left: 0px;
 }
 .player {
@@ -85,7 +110,7 @@ body{
   text-align: center;
   padding-right: 0.4rem;
   position: relative;
-  bottom: 250%;
+  bottom: 102%;
   height:10px;
 }
 span{
@@ -94,7 +119,7 @@ span{
 
 .form{
   position: relative;
-  bottom: 400%;
+  bottom: 240%;
   left: 150%;
   padding: 2rem 1rem;
   margin: 2rem 0;
@@ -103,7 +128,8 @@ span{
   border-color:black;
   border-radius: 5px;
   background-color: rgb(141,79,58);
-  border-width: 6px
+  border-width: 6px;
+  height: 65%;
 }
 .form form {
   display: flex;
@@ -127,7 +153,7 @@ input {
 }
 .togBtn{
   position: relative;
-  bottom: 390%;
+  bottom: 230%;
   left: 155%;
   width: 100px;
   height: 30px;

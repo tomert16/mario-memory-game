@@ -30,12 +30,12 @@ const Leaderboard = () => {
 
     return (
         <div className="leaderboard">
-            <div className="leadTitle">
+            <header className="leadTitle">
                 <h1>Leaderboard</h1>
                 <h2 onClick={() => {
                     navigate('/')
                 }}>Return to Game</h2>
-            </div>
+            </header>
             <Filter playerFilter={playerFilter} setPlayerFilter={setPlayerFilter} />
             <div className="board">
                 <div>#</div>
@@ -55,7 +55,7 @@ const Leaderboard = () => {
                     <LeaderboardForm players={players} setPlayers={setPlayers}/>
                 </div>
                 :
-                <button className="togBtn" onClick={handleFormToggle}>Show Form</button>
+                <button className="togBtn" onClick={handleFormToggle}>Add Your Score</button>
             }
             </div>
         </div>
